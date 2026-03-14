@@ -1,0 +1,22 @@
+.dashboard-charts-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.chart-card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease-in-out;
+}
+
+.chart-card:hover {
+  transform: translateY(-4px);
+}
+
+.chart-card canvas {
+  max-height: 350px;
+}

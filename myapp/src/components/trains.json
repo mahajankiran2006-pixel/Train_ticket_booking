@@ -1,0 +1,80 @@
+{
+    "trains": [
+      {
+        "train_name": "Express 101",
+        "departure": "2025-02-23T06:30:00",
+        "arrival": "2025-02-23T10:00:00",
+        "route": "Delhi - Mumbai",
+        "price": {
+          "general": 300,
+          "sleeper": 350,
+          "economy": 700,
+          "1ac": 1500,
+          "2ac": 1100,
+          "3ac": 850,
+          "first_class": 1200
+        }
+      },
+      {
+        "train_name": "Superfast 202",
+        "departure": "2025-02-23T07:15:00",
+        "arrival": "2025-02-23T11:30:00",
+        "route": "Kolkata - Chennai",
+        "price": {
+          "general": 320,
+          "sleeper": 400,
+          "economy": 750,
+          "1ac": 1600,
+          "2ac": 1200,
+          "3ac": 900,
+          "first_class": 1300
+        }
+      },
+      {
+        "train_name": "Rajdhani Express 303",
+        "departure": "2025-02-23T09:00:00",
+        "arrival": "2025-02-23T17:00:00",
+        "route": "Mumbai - Delhi",
+        "price": {
+          "general": 550,
+          "sleeper": 600,
+          "economy": 950,
+          "1ac": 1800,
+          "2ac": 1500,
+          "3ac": 1200,
+          "first_class": 1500
+        }
+      },
+      {
+        "train_name": "Shatabdi 404",
+        "departure": "2025-02-23T08:00:00",
+        "arrival": "2025-02-23T12:30:00",
+        "route": "Chennai - Hyderabad",
+        "price": {
+          "general": 270,
+          "sleeper": 350,
+          "economy": 800,
+          "1ac": 1400,
+          "2ac": 1000,
+          "3ac": 750,
+          "first_class": 1200
+        }
+      },
+      {
+        "train_name": "Duronto 505",
+        "departure": "2025-02-23T10:30:00",
+        "arrival": "2025-02-23T16:30:00",
+        "route": "Delhi - Bangalore",
+        "price": {
+          "general": 500,
+          "sleeper": 500,
+          "economy": 900,
+          "1ac": 1700,
+          "2ac": 1300,
+          "3ac": 1000,
+          "first_class": 1400
+        }
+      }
+    ]
+  }
+  
