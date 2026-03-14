@@ -1,30 +1,60 @@
-# Bootstrap Project
+# Train Ticket Booking System
 
-This is a Bootstrap 4.3.1 project ready for deployment.
+A comprehensive train ticket booking system built with React.js frontend and Node.js backend, featuring Bootstrap 4.3.1 for responsive design.
+
+## Features
+
+- User registration and authentication
+- Train search and booking
+- Admin panel for train management
+- Payment integration
+- Booking history and management
+- Responsive design with Bootstrap
+
+## Project Structure
+
+- `myapp/` - React.js frontend application
+- `bootstrap-4.3.1/` - Bootstrap framework files
+- `myapp/Backend/` - Node.js backend API
 
 ## Getting Started
 
 ### Prerequisites
 - Node.js (version 6 or higher)
 - npm or yarn
+- MongoDB (for backend database)
 
 ### Installation
 
 1. Clone the repository:
 ```bash
-git clone <your-repo-url>
-cd Project
+git clone https://github.com/mahajankiran2006-pixel/Train_ticket_booking.git
+cd Train_ticket_booking
 ```
 
-2. Install dependencies:
+2. Install frontend dependencies:
 ```bash
+cd myapp
+npm install
+```
+
+3. Install backend dependencies:
+```bash
+cd Backend
 npm install
 ```
 
 ### Development
 
-Start the development server:
+1. Start the backend server:
 ```bash
+cd myapp/Backend
+npm start
+```
+
+2. Start the frontend development server:
+```bash
+cd myapp
 npm start
 ```
 
@@ -32,14 +62,8 @@ npm start
 
 Build the project for production:
 ```bash
-npm run dist
-```
-
-### Testing
-
-Run tests:
-```bash
-npm test
+cd myapp
+npm run build
 ```
 
 ## Deployment
